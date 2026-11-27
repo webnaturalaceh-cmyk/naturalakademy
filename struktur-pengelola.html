@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1B498B">
+    <meta name="description" content="Struktur Pengelola Natural Akademi — Tim manajemen dan penggerak inkubator bisnis, pendamping UMKM, dan koperasi di Aceh.">
+    <title>Struktur Pengelola | Natural Akademi</title>
+    <link rel="icon" type="image/jpeg" href="Informasi%20mengenai%20natural%20akademi/Natural%20akademi%20logo%201.jpeg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati navigasi</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Natural Akademi — Beranda">
+          <img src="Informasi%20mengenai%20natural%20akademi/Natural%20akademi%20logo%201.jpeg" width="1600" height="1596" alt="Logo Natural Akademi">
+          <span>NATURAL <strong>AKADEMI</strong></span>
+        </a>
+
+        <nav id="primary-navigation" class="navigation" aria-label="Navigasi utama">
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-about"
+                aria-haspopup="true"
+                aria-current="true"
+              >
+                <span>Tentang Kami</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-about" class="dropdown-menu">
+                <li><a href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a href="tujuan-utama.html">Tujuan Utama</a></li>
+                <li><a href="struktur-pengelola.html" aria-current="page">Struktur Pengelola</a></li>
+              </ul>
+            </li>
+            <li><a href="index.html#program">Program</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-curriculum"
+                aria-haspopup="true"
+              >
+                <span>Kurikulum</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-curriculum" class="dropdown-menu">
+                <li><a href="kurikulum-inkubasi-umkm.html">Kurikulum Inkubasi UMKM</a></li>
+                <li><a href="strategi-inkubasi-koperasi.html">Strategi Inkubasi Koperasi</a></li>
+              </ul>
+            </li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-gallery"
+                aria-haspopup="true"
+              >
+                <span>Galeri</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-gallery" class="dropdown-menu">
+                <li><a href="index.html#galeri-instagram">Galeri Instagram</a></li>
+                <li><a href="galeri-photo.html">Galeri Photo</a></li>
+              </ul>
+            </li>
+            <li><a href="mitra.html">Mitra</a></li>
+            <li><a class="nav-contact" href="index.html#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            type="button"
+            class="lang-toggle-btn"
+            id="lang-toggle"
+            aria-label="Terjemahkan ke Bahasa Inggris / Translate to English"
+            title="Terjemahkan ke Bahasa Inggris (Translate to English)"
+            aria-pressed="false"
+          >
+            <span class="lang-flag-circle">
+              <svg class="lang-flag-svg" width="34" height="34" viewBox="0 0 44 44" aria-hidden="true" focusable="false">
+                <defs>
+                  <clipPath id="lang-circle-clip">
+                    <circle cx="22" cy="22" r="20" />
+                  </clipPath>
+                  <clipPath id="lang-left-half">
+                    <rect x="0" y="0" width="22" height="44" />
+                  </clipPath>
+                  <clipPath id="lang-right-half">
+                    <rect x="22" y="0" width="22" height="44" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#lang-circle-clip)">
+                  <!-- Bendera Indonesia (Sisi Kiri) -->
+                  <g clip-path="url(#lang-left-half)">
+                    <rect x="0" y="0" width="22" height="22" fill="#E11927" />
+                    <rect x="0" y="22" width="22" height="22" fill="#FFFFFF" />
+                  </g>
+                  <!-- Bendera Amerika (Sisi Kanan) -->
+                  <g clip-path="url(#lang-right-half)">
+                    <rect x="22" y="0" width="22" height="6.28" fill="#B22234" />
+                    <rect x="22" y="6.28" width="22" height="6.28" fill="#FFFFFF" />
+                    <rect x="22" y="12.56" width="22" height="6.28" fill="#B22234" />
+                    <rect x="22" y="18.84" width="22" height="6.28" fill="#FFFFFF" />
+                    <rect x="22" y="25.12" width="22" height="6.28" fill="#B22234" />
+                    <rect x="22" y="31.4" width="22" height="6.28" fill="#FFFFFF" />
+                    <rect x="22" y="37.68" width="22" height="6.32" fill="#B22234" />
+                    <rect x="22" y="0" width="13" height="22" fill="#1B498B" />
+                    <circle cx="26" cy="5.5" r="1.2" fill="#FFFFFF" />
+                    <circle cx="31" cy="5.5" r="1.2" fill="#FFFFFF" />
+                    <circle cx="28.5" cy="11" r="1.2" fill="#FFFFFF" />
+                    <circle cx="26" cy="16.5" r="1.2" fill="#FFFFFF" />
+                    <circle cx="31" cy="16.5" r="1.2" fill="#FFFFFF" />
+                  </g>
+                  <line x1="22" y1="0" x2="22" y2="44" stroke="#FFFFFF" stroke-width="2" />
+                </g>
+                <circle cx="22" cy="22" r="20" stroke="#CBD5E1" stroke-width="1.8" fill="none" />
+                <circle class="lang-badge-circle" cx="22" cy="22" r="8" fill="#1B498B" stroke="#FFFFFF" stroke-width="1.6" />
+                <text class="lang-badge-text" x="22" y="22.5" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF" font-family="'Open Sans', -apple-system, sans-serif" font-size="7.5" font-weight="700">ID</text>
+              </svg>
+            </span>
+          </button>
+
+          <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>
+            <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+            <span class="visually-hidden menu-label">Buka menu navigasi</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb-list">
+          <li><a href="index.html">Beranda</a></li>
+          <li><span class="breadcrumb-sep" aria-hidden="true">›</span></li>
+          <li><span>Tentang Kami</span></li>
+          <li><span class="breadcrumb-sep" aria-hidden="true">›</span></li>
+          <li aria-current="page">Struktur Pengelola</li>
+        </ol>
+      </div>
+    </nav>
+
+    <main id="main-content" class="page-content" tabindex="-1">
+      <div class="container">
+        
+        <div class="org-section-container">
+          <!-- Judul Section -->
+          <h1 class="visi-misi-title" id="org-title">STRUKTUR PENGELOLA</h1>
+
+          <!-- Bagan Organisasi Murni HTML & CSS -->
+          <div class="org-chart-wrapper" tabindex="0" role="region" aria-labelledby="org-title">
+            <p class="org-scroll-hint" aria-hidden="true">&larr; Geser ke samping untuk melihat bagan lengkap &rarr;</p>
+            
+            <div class="org-chart">
+              
+              <!-- LEVEL 1: KETUA (Posisi Tengah) -->
+              <div class="org-level org-level-1">
+                <div class="org-card org-card-ketua">
+                  <span class="org-name">ZAINAL ABIDIN SUARJA</span>
+                  <span class="org-role">KETUA</span>
+                </div>
+              </div>
+
+              <!-- Batang Vertikal dari Ketua ke Celah Sekretaris & Bendahara -->
+              <div class="org-stem-down" aria-hidden="true"></div>
+
+              <!-- LEVEL 2: SEKRETARIS & BENDAHARA (Bersebelahan Kiri & Kanan di bawah garis Ketua) -->
+              <div class="org-level org-level-2">
+                <div class="org-staff-row">
+                  <!-- Kotak Kiri: Sekretaris -->
+                  <div class="org-card org-card-staff">
+                    <span class="org-name">WAHYU VIRGA WANGSA</span>
+                    <span class="org-role">SEKRETARIS</span>
+                  </div>
+
+                  <!-- Celah tengah dengan persimpangan garis -->
+                  <div class="org-staff-junction" aria-hidden="true">
+                    <div class="org-line-v-thru"></div>
+                    <div class="org-line-h-cross"></div>
+                  </div>
+
+                  <!-- Kotak Kanan: Bendahara -->
+                  <div class="org-card org-card-staff">
+                    <span class="org-name">SARAH APRILIA</span>
+                    <span class="org-role">BENDAHARA</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Batang Vertikal turun ke Cabang 4 Manajer -->
+              <div class="org-stem-down" aria-hidden="true"></div>
+
+              <!-- CABANG PENGHUBUNG KE 4 MANAJER -->
+              <div class="org-distributor-top" aria-hidden="true">
+                <div class="org-h-bar-managers"></div>
+                <div class="org-drop-grid">
+                  <div class="org-drop-cell"><span class="org-v-line"></span><span class="org-arrow-down"></span></div>
+                  <div class="org-drop-cell"><span class="org-v-line"></span><span class="org-arrow-down"></span></div>
+                  <div class="org-drop-cell"><span class="org-v-line"></span><span class="org-arrow-down"></span></div>
+                  <div class="org-drop-cell"><span class="org-v-line"></span><span class="org-arrow-down"></span></div>
+                </div>
+              </div>
+
+              <!-- LEVEL 3: 4 MANAJER (Sejajar Horizontal) -->
+              <div class="org-level org-level-3">
+                <div class="org-managers-grid">
+                  <div class="org-card org-card-manager">
+                    <span class="org-name">NURUL RAHMAH</span>
+                    <span class="org-role">MANAJER KOMODITI</span>
+                  </div>
+                  <div class="org-card org-card-manager">
+                    <span class="org-name">FARIDAH ARIANI</span>
+                    <span class="org-role">MANAJER FOOD</span>
+                  </div>
+                  <div class="org-card org-card-manager">
+                    <span class="org-name">NURKHALIZA</span>
+                    <span class="org-role">MANAJER FASHION</span>
+                  </div>
+                  <div class="org-card org-card-manager">
+                    <span class="org-name">AMIRATUL ADILA</span>
+                    <span class="org-role">MANAJER CRAFT</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- GABUNGAN GARIS DARI 4 MANAJER MENUJU MENTOR -->
+              <div class="org-gather-bottom" aria-hidden="true">
+                <div class="org-rise-grid">
+                  <div class="org-rise-cell"><span class="org-v-line"></span></div>
+                  <div class="org-rise-cell"><span class="org-v-line"></span></div>
+                  <div class="org-rise-cell"><span class="org-v-line"></span></div>
+                  <div class="org-rise-cell"><span class="org-v-line"></span></div>
+                </div>
+                <div class="org-h-bar-managers"></div>
+                <div class="org-stem-to-mentor">
+                  <span class="org-v-line"></span>
+                  <span class="org-arrow-down"></span>
+                </div>
+              </div>
+
+              <!-- LEVEL 4: MENTOR & CO MENTOR (Posisi Tengah) -->
+              <div class="org-level org-level-4">
+                <div class="org-card org-card-mentor">
+                  <span class="org-name">MENTOR &amp; CO MENTOR</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer class="site-footer" id="kontak" aria-labelledby="contact-title" tabindex="-1">
+      <div class="footer-main-area">
+        <div class="container footer-container">
+          
+          <!-- Kolom Kiri: HUBUNGI KAMI -->
+          <div class="footer-col-left">
+            <h2 class="footer-col-title" id="contact-title">HUBUNGI KAMI</h2>
+            
+            <div class="footer-contact-info">
+              <p class="footer-info-item">
+                Jl. Tgk. Adee II No 8, Ulee Kareng,<br>Banda Aceh, Aceh, Indonesia 23117
+              </p>
+              <p class="footer-info-item">
+                <a href="https://wa.me/628979276758" target="_blank" rel="noopener noreferrer">WhatsApp +62 897-9276-758</a>
+              </p>
+              <p class="footer-info-item">
+                <a href="mailto:akademi@naturalaceh.org">Email akademi@naturalaceh.org</a>
+              </p>
+            </div>
+
+            <!-- Ikon Media Sosial Horizontal (Putih polos tanpa kotak/lingkaran) -->
+            <div class="footer-social-row" aria-label="Media Sosial dan Kontak Resmi">
+              <a class="footer-social-icon" href="https://wa.me/628979276758" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Natural Akademi">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12.031 2C6.511 2 2.016 6.496 2.016 12.016c0 1.954.56 3.86 1.625 5.517L2 22.031l4.633-1.602a9.99 9.99 0 0 0 5.398 1.579c5.52 0 10.016-4.496 10.016-10.016 0-5.52-4.496-9.992-10.016-9.992zm5.727 14.156c-.242.68-1.22 1.305-1.695 1.383-.446.078-1.016.14-3.14-.742-2.313-.961-3.797-3.32-3.914-3.477-.117-.156-.938-1.25-.938-2.383 0-1.133.586-1.688.805-1.922.21-.234.468-.297.625-.297.156 0 .312 0 .445.008.149.008.352-.055.555.43.211.5.719 1.758.781 1.883.063.125.102.273.016.438-.078.164-.117.273-.234.414-.117.14-.242.32-.344.43-.117.117-.242.242-.102.476.14.242.625 1.031 1.344 1.672.922.82 1.703 1.078 1.945 1.195.242.117.383.102.523-.062.14-.164.602-.703.766-.945.164-.242.328-.203.547-.117.219.078 1.39.656 1.633.781.242.117.406.18.468.281.063.102.063.586-.18 1.266z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="https://www.instagram.com/naturalaceh/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Natural Aceh">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="https://naturalaceh.org/" target="_blank" rel="noopener noreferrer" aria-label="Website Resmi Natural Aceh">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="mailto:akademi@naturalaceh.org" aria-label="Email Natural Akademi">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: TAUTAN CEPAT (Rata Kanan) -->
+          <div class="footer-col-right">
+            <h2 class="footer-col-title">TAUTAN CEPAT</h2>
+            <nav class="footer-quick-links" aria-label="Tautan Cepat">
+              <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a href="index.html#program">Program</a></li>
+                <li><a href="kurikulum-inkubasi-umkm.html">Kurikulum</a></li>
+                <li><a href="mitra.html">Mitra</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bar Copyright Paling Bawah -->
+      <div class="footer-bottom-bar">
+        <div class="container">
+          <p class="footer-copyright-text">&copy; COPYRIGHT <span data-current-year>2026</span> - NATURAL AKADEMI / NATURAL ACEH - ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,703 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#1B498B">
+    <meta name="description" content="Natural Akademi — Inkubator Bisnis Wiramuda, Pengusaha Perempuan, Disabilitas, Penyintas Bencana, Koperasi Produsen dan Pelaku Usaha Rural (Pesisir & Hutan)">
+    <title>Natural Akademi | Inkubator Bisnis</title>
+    <link rel="icon" type="image/jpeg" href="Informasi%20mengenai%20natural%20akademi/Natural%20akademi%20logo%201.jpeg">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#beranda">Lewati navigasi</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#beranda" aria-label="Natural Akademi — Beranda">
+          <img src="Informasi%20mengenai%20natural%20akademi/Natural%20akademi%20logo%201.jpeg" width="1600" height="1596" alt="Logo Natural Akademi">
+          <span>NATURAL <strong>AKADEMI</strong></span>
+        </a>
+
+        <nav id="primary-navigation" class="navigation" aria-label="Navigasi utama">
+          <ul>
+            <li><a href="#beranda" aria-current="location">Beranda</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-about"
+                aria-haspopup="true"
+              >
+                <span>Tentang Kami</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-about" class="dropdown-menu">
+                <li><a href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a href="tujuan-utama.html">Tujuan Utama</a></li>
+                <li><a href="struktur-pengelola.html">Struktur Pengelola</a></li>
+              </ul>
+            </li>
+            <li><a href="#program">Program</a></li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-curriculum"
+                aria-haspopup="true"
+              >
+                <span>Kurikulum</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-curriculum" class="dropdown-menu">
+                <li><a href="kurikulum-inkubasi-umkm.html">Kurikulum Inkubasi UMKM</a></li>
+                <li><a href="strategi-inkubasi-koperasi.html">Strategi Inkubasi Koperasi</a></li>
+              </ul>
+            </li>
+            <li class="nav-dropdown">
+              <button
+                class="dropdown-trigger"
+                type="button"
+                aria-expanded="false"
+                aria-controls="dropdown-gallery"
+                aria-haspopup="true"
+              >
+                <span>Galeri</span>
+                <svg class="dropdown-chevron" width="9" height="9" viewBox="0 0 12 12" aria-hidden="true" focusable="false">
+                  <path d="M2.5 4.5L6 8L9.5 4.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </button>
+              <ul id="dropdown-gallery" class="dropdown-menu">
+                <li><a href="#galeri-instagram">Galeri Instagram</a></li>
+                <li><a href="galeri-photo.html">Galeri Photo</a></li>
+              </ul>
+            </li>
+            <li><a href="#mitra">Mitra</a></li>
+            <!-- Restore Alur Inkubasi and Fasilitas when their sections are available. -->
+            <li><a class="nav-contact" href="#kontak">Kontak</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            type="button"
+            class="lang-toggle-btn"
+            id="lang-toggle"
+            aria-label="Terjemahkan ke Bahasa Inggris / Translate to English"
+            title="Terjemahkan ke Bahasa Inggris (Translate to English)"
+            aria-pressed="false"
+          >
+            <span class="lang-flag-circle">
+              <svg class="lang-flag-svg" width="34" height="34" viewBox="0 0 44 44" aria-hidden="true" focusable="false">
+                <defs>
+                  <clipPath id="lang-circle-clip">
+                    <circle cx="22" cy="22" r="20" />
+                  </clipPath>
+                  <clipPath id="lang-left-half">
+                    <rect x="0" y="0" width="22" height="44" />
+                  </clipPath>
+                  <clipPath id="lang-right-half">
+                    <rect x="22" y="0" width="22" height="44" />
+                  </clipPath>
+                </defs>
+                <g clip-path="url(#lang-circle-clip)">
+                  <!-- Bendera Indonesia (Sisi Kiri) -->
+                  <g clip-path="url(#lang-left-half)">
+                    <rect x="0" y="0" width="22" height="22" fill="#E11927" />
+                    <rect x="0" y="22" width="22" height="22" fill="#FFFFFF" />
+                  </g>
+                  <!-- Bendera Amerika (Sisi Kanan) -->
+                  <g clip-path="url(#lang-right-half)">
+                    <rect x="22" y="0" width="22" height="6.28" fill="#B22234" />
+                    <rect x="22" y="6.28" width="22" height="6.28" fill="#FFFFFF" />
+                    <rect x="22" y="12.56" width="22" height="6.28" fill="#B22234" />
+                    <rect x="22" y="18.84" width="22" height="6.28" fill="#FFFFFF" />
+                    <rect x="22" y="25.12" width="22" height="6.28" fill="#B22234" />
+                    <rect x="22" y="31.4" width="22" height="6.28" fill="#FFFFFF" />
+                    <rect x="22" y="37.68" width="22" height="6.32" fill="#B22234" />
+                    <rect x="22" y="0" width="13" height="22" fill="#1B498B" />
+                    <circle cx="26" cy="5.5" r="1.2" fill="#FFFFFF" />
+                    <circle cx="31" cy="5.5" r="1.2" fill="#FFFFFF" />
+                    <circle cx="28.5" cy="11" r="1.2" fill="#FFFFFF" />
+                    <circle cx="26" cy="16.5" r="1.2" fill="#FFFFFF" />
+                    <circle cx="31" cy="16.5" r="1.2" fill="#FFFFFF" />
+                  </g>
+                  <line x1="22" y1="0" x2="22" y2="44" stroke="#FFFFFF" stroke-width="2" />
+                </g>
+                <circle cx="22" cy="22" r="20" stroke="#CBD5E1" stroke-width="1.8" fill="none" />
+                <circle class="lang-badge-circle" cx="22" cy="22" r="8" fill="#1B498B" stroke="#FFFFFF" stroke-width="1.6" />
+                <text class="lang-badge-text" x="22" y="22.5" text-anchor="middle" dominant-baseline="central" fill="#FFFFFF" font-family="'Open Sans', -apple-system, sans-serif" font-size="7.5" font-weight="700">ID</text>
+              </svg>
+            </span>
+          </button>
+
+          <button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" hidden>
+            <span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+            <span class="visually-hidden menu-label">Buka menu navigasi</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="beranda" aria-labelledby="hero-title" tabindex="-1">
+        <video class="hero-video" id="hero-video" loop playsinline preload="metadata" aria-hidden="true" tabindex="-1">
+          <source src="Pasar%20Laut%20Aceh.mp4" type="video/mp4">
+        </video>
+        <div class="container hero-inner">
+          <div class="hero-content">
+            <div class="brand-rule" aria-hidden="true"><span></span><span></span><span></span></div>
+            <h1 id="hero-title">Natural <span>Akademi</span></h1>
+            <p class="hero-tagline">Inkubator Bisnis Wiramuda, Pengusaha Perempuan, Disabilitas, Penyintas Bencana, Koperasi Produsen dan Pelaku Usaha Rural (Pesisir &amp; Hutan)</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#program">Lihat Program Inkubasi</a>
+              <a class="button button-secondary" href="#kontak">Hubungi Kami</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="tenant-section" id="tenant" aria-labelledby="tenant-title">
+        <div class="container tenant-container">
+          <h2 class="tenant-title" id="tenant-title">DATA JUMLAH TENANT</h2>
+          <dl class="tenant-grid">
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--blue" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </span>
+                <span>1.876</span>
+              </dd>
+              <dt class="tenant-label">Pemuda</dt>
+              <dd class="tenant-desc">Wirausaha muda (wiramuda) penggerak inovasi daerah.</dd>
+            </div>
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--purple" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><polyline points="16 11 18 13 22 9"/></svg>
+                </span>
+                <span>11.987</span>
+              </dd>
+              <dt class="tenant-label">Perempuan</dt>
+              <dd class="tenant-desc">Pengusaha perempuan penopang ketahanan ekonomi keluarga.</dd>
+            </div>
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--green" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+                </span>
+                <span>284</span>
+              </dd>
+              <dt class="tenant-label">Disabilitas</dt>
+              <dd class="tenant-desc">Pelaku usaha difabel berdaya dengan pendampingan ramah akses.</dd>
+            </div>
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--amber" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/><path d="m9 12 2 2 4-4"/></svg>
+                </span>
+                <span>2.034</span>
+              </dd>
+              <dt class="tenant-label">Penyintas Bencana</dt>
+              <dd class="tenant-desc">Pemberdayaan kemandirian ekonomi pasca-bencana.</dd>
+            </div>
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--teal" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                </span>
+                <span>26</span>
+              </dd>
+              <dt class="tenant-label">Koperasi Komoditi</dt>
+              <dd class="tenant-desc">Koperasi produsen sektor perkebunan, kelautan, dan pertanian.</dd>
+            </div>
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--pink" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m2 7 4.41-4.41A2 2 0 0 1 7.83 2h8.34a2 2 0 0 1 1.42.59L22 7"/><path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"/><path d="M15 22v-4a2 2 0 0 0-2-2h-2a2 2 0 0 0-2 2v4"/><path d="M2 7h20"/><path d="M22 7v3a2 2 0 0 1-2 2v0a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 16 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 12 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 8 12a2.7 2.7 0 0 1-1.59-.63.7.7 0 0 0-.82 0A2.7 2.7 0 0 1 4 12v0a2 2 0 0 1-2-2V7"/></svg>
+                </span>
+                <span>31</span>
+              </dd>
+              <dt class="tenant-label">KDMP</dt>
+              <dd class="tenant-desc">Koperasi Desa Merah Putih sebagai poros ekonomi pedesaan.</dd>
+            </div>
+            <div class="tenant-card">
+              <dd class="tenant-number">
+                <span class="tenant-icon tenant-icon--indigo" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></svg>
+                </span>
+                <span>22</span>
+              </dd>
+              <dt class="tenant-label">Startup</dt>
+              <dd class="tenant-desc">Rintisan usaha berbasis teknologi dan inovasi produk baru.</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+      <section class="program-section" id="program" aria-labelledby="program-title">
+        <div class="container">
+          <h2 class="program-title" id="program-title">LAYANAN DAN PROGRAM INKUBASI</h2>
+          <ol class="program-grid" role="list">
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">01</span>
+              </div>
+              <h3 class="program-card-title">Program Pendampingan Personal</h3>
+              <p class="program-card-desc">Konsultasi intensif satu per satu (one-on-one coaching) yang disesuaikan dengan kebutuhan spesifik dan tantangan bisnis setiap tenant.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M10 9H8"/><path d="M16 13H8"/><path d="M16 17H8"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">02</span>
+              </div>
+              <h3 class="program-card-title">Pelatihan Kewirausahaan Berbasis Lokal</h3>
+              <p class="program-card-desc">Peningkatan kapasitas manajerial dengan memanfaatkan keunggulan kearifan lokal, potensi komoditas pesisir, pertanian, dan kehutanan Aceh.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="14" x="2" y="3" rx="2"/><line x1="8" x2="16" y1="21" y2="21"/><line x1="12" x2="12" y1="17" y2="21"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">03</span>
+              </div>
+              <h3 class="program-card-title">Inkubasi Teknologi Digital</h3>
+              <p class="program-card-desc">Bimbingan adopsi teknologi informasi, otomatisasi pencatatan keuangan, sistem inventori, dan pemanfaatan perangkat lunak bisnis.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"/><path d="M12 18V6"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">04</span>
+              </div>
+              <h3 class="program-card-title">Akses Keuangan dan Pendanaan</h3>
+              <p class="program-card-desc">Fasilitasi penyusunan proposal bisnis layak investasi dan penghubungan langsung dengan LPDB-KUMKM, perbankan, dan mitra lembaga keuangan resmi.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"/><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">05</span>
+              </div>
+              <h3 class="program-card-title">Kolaborasi Jaringan Bisnis</h3>
+              <p class="program-card-desc">Peluang sinergi antar-tenant, kemitraan rantai pasok (supply chain), asosiasi pengusaha, perguruan tinggi, dan jaringan wirausaha skala nasional.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">06</span>
+              </div>
+              <h3 class="program-card-title">Marketplace Showcase</h3>
+              <p class="program-card-desc">Etalase promosi dan fasilitasi listing produk unggulan tenant pada marketplace terkemuka (Tokopedia, Shopee, Blibli) dan pameran bisnis.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">07</span>
+              </div>
+              <h3 class="program-card-title">Program Inkubasi Cepat (Fast Track)</h3>
+              <p class="program-card-desc">Skema akselerasi khusus bagi usaha dengan kesiapan produk tinggi untuk percepatan standarisasi, perizinan, dan penetrasi pasar komersial.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v7.527a2 2 0 0 1-.211.896L4.72 20.55a1 1 0 0 0 .9 1.45h12.76a1 1 0 0 0 .9-1.45l-5.069-10.127A2 2 0 0 1 14 9.527V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">08</span>
+              </div>
+              <h3 class="program-card-title">Riset dan Pengembangan (R&amp;D)</h3>
+              <p class="program-card-desc">Pengujian formula produk, inovasi mutu olahan komoditas pangan, diversifikasi produk turunan, dan perbaikan daya simpan produk.</p>
+            </li>
+            <li class="program-card">
+              <div class="program-card-header">
+                <span class="program-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </span>
+                <span class="program-number" aria-hidden="true">09</span>
+              </div>
+              <h3 class="program-card-title">Sharing Marketing &amp; Production</h3>
+              <p class="program-card-desc">Pemanfaatan bersama fasilitas rumah produksi, mesin pengemasan modern, serta konsolidasi pemasaran bersama untuk menekan biaya operasional.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- Section Galeri Instagram (Sebelum Mitra) -->
+      <section class="gallery-ig-section" id="galeri-instagram" aria-labelledby="gallery-ig-title">
+        <div class="container">
+          <div class="gallery-ig-inner">
+            <h2 class="visi-misi-title" id="gallery-ig-title">GALERI INSTAGRAM</h2>
+            <p class="gallery-ig-subtitle">Ikuti update kegiatan, program inkubasi, dan kabar terbaru Natural Akademi di Instagram resmi kami.</p>
+
+            <ul class="gallery-ig-grid" aria-label="Daftar Postingan Instagram Natural Aceh">
+              <li class="gallery-ig-card">
+                <div class="ig-card-wrapper">
+                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DgE9Px3xVOS/" data-instgrm-version="14">
+                    <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/DgE9Px3xVOS/" target="_blank" rel="noopener noreferrer" style="color:#1B498B; text-decoration:none; font-weight:600;">
+                        Lihat postingan ini di Instagram
+                      </a>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+              <li class="gallery-ig-card">
+                <div class="ig-card-wrapper">
+                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DgE9G06Rac5/" data-instgrm-version="14">
+                    <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/DgE9G06Rac5/" target="_blank" rel="noopener noreferrer" style="color:#1B498B; text-decoration:none; font-weight:600;">
+                        Lihat postingan ini di Instagram
+                      </a>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+              <li class="gallery-ig-card">
+                <div class="ig-card-wrapper">
+                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DfWUd2Ekw_3/" data-instgrm-version="14">
+                    <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/DfWUd2Ekw_3/" target="_blank" rel="noopener noreferrer" style="color:#1B498B; text-decoration:none; font-weight:600;">
+                        Lihat postingan ini di Instagram
+                      </a>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+              <li class="gallery-ig-card">
+                <div class="ig-card-wrapper">
+                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DfWUaR1E4mA/" data-instgrm-version="14">
+                    <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/DfWUaR1E4mA/" target="_blank" rel="noopener noreferrer" style="color:#1B498B; text-decoration:none; font-weight:600;">
+                        Lihat postingan ini di Instagram
+                      </a>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+              <li class="gallery-ig-card">
+                <div class="ig-card-wrapper">
+                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DfWUVsvkxzE/" data-instgrm-version="14">
+                    <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/DfWUVsvkxzE/" target="_blank" rel="noopener noreferrer" style="color:#1B498B; text-decoration:none; font-weight:600;">
+                        Lihat postingan ini di Instagram
+                      </a>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+              <li class="gallery-ig-card">
+                <div class="ig-card-wrapper">
+                  <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/DfWUQfgE_N0/" data-instgrm-version="14">
+                    <div style="padding:16px;">
+                      <a href="https://www.instagram.com/p/DfWUQfgE_N0/" target="_blank" rel="noopener noreferrer" style="color:#1B498B; text-decoration:none; font-weight:600;">
+                        Lihat postingan ini di Instagram
+                      </a>
+                    </div>
+                  </blockquote>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <script async src="https://www.instagram.com/embed.js"></script>
+      </section>
+
+      <!-- Section Mitra (Sebelum Kontak) -->
+      <section class="partner-home-section" id="mitra" aria-labelledby="partner-title">
+        <div class="container">
+          <div class="partner-section">
+            <h2 class="visi-misi-title" id="partner-title">MITRA KAMI</h2>
+
+            <div class="partner-marquee">
+              <div class="partner-marquee-track">
+                <ul class="partner-marquee-list" aria-label="Daftar Logo Mitra Natural Akademi">
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/AVPN%20logo.jpg" alt="Logo AVPN">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Adobe%20Express%20logo.jpg" alt="Logo Adobe Express">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Airasia%20Foundation%20logo.png" alt="Logo AirAsia Foundation">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Amazone%20Web%20Service%20logo.png" alt="Logo Amazon Web Services">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Bank%20BTN%20Logo.png" alt="Logo Bank BTN">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/DPMG%20Aceh%20logo.jpg" alt="Logo DPMG Aceh">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Dompet%20Dhuafa%20logo.jpg" alt="Logo Dompet Dhuafa">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/GS1%20logo.png" alt="Logo GS1">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Global%20center%20of%20adaption%20logo.png" alt="Logo Global Center on Adaptation">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Honnold%20foundation%20logo.png" alt="Logo Honnold Foundation">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/kedutaan%20australia%20logo.jpeg" alt="Logo Kedutaan Australia">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kemenkop%20Logo.png" alt="Logo Kementerian Koperasi dan UKM">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kemenpora%20Logo.png" alt="Logo Kementerian Pemuda dan Olahraga">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kemenristekdikti%20logo.png" alt="Logo Kemenristekdikti">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kementerian%20Agama%20logo.png" alt="Logo Kementerian Agama">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kementerian%20Ketenagakerjaan%20Kemnaker%20Logo.png" alt="Logo Kementerian Ketenagakerjaan">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/LPDB%20Koperasi%20logo.jpg" alt="Logo LPDB Koperasi">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Paris%20peace%20Forum%20logo.png" alt="Logo Paris Peace Forum">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pegadaian%20Syariah%20logo.png" alt="Logo Pegadaian Syariah">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemerintah%20aceh%20logo.png" alt="Logo Pemerintah Aceh">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemkab%20Aceh%20Tengah%20logo.png" alt="Logo Pemkab Aceh Tengah">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemkab%20aceh%20barat%20logo.jpg" alt="Logo Pemkab Aceh Barat">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemko%20banda%20aceh%20logo.png" alt="Logo Pemko Banda Aceh">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/pln%20peduli%20logo.png" alt="Logo PLN Peduli">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/RRI%20logo.png" alt="Logo RRI">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/UMKM%20Logo.png" alt="Logo UMKM">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Univ%20Abulyatama%20logo.jpg" alt="Logo Universitas Abulyatama">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Universitas%20Syiah%20Kuala%20(USK)%20Logo.png" alt="Logo Universitas Syiah Kuala (USK)">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Universitas%20Teuku%20Umar%20(UTU)%20logo.png" alt="Logo Universitas Teuku Umar (UTU)">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/WCS%20logo.png" alt="Logo WCS">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/PF%20muda%20logo.jpeg" alt="Pertamina Foundation">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/bisa%20logo.jpeg" alt="BISA">
+                  </li>
+                </ul>
+
+                <ul class="partner-marquee-list" aria-hidden="true">
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/AVPN%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Adobe%20Express%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Airasia%20Foundation%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Amazone%20Web%20Service%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Bank%20BTN%20Logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/DPMG%20Aceh%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Dompet%20Dhuafa%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/GS1%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Global%20center%20of%20adaption%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Honnold%20foundation%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/kedutaan%20australia%20logo.jpeg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kemenkop%20Logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kemenpora%20Logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kemenristekdikti%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kementerian%20Agama%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Kementerian%20Ketenagakerjaan%20Kemnaker%20Logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/LPDB%20Koperasi%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Paris%20peace%20Forum%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pegadaian%20Syariah%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemerintah%20aceh%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemkab%20Aceh%20Tengah%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemkab%20aceh%20barat%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Pemko%20banda%20aceh%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/pln%20peduli%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/RRI%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/UMKM%20Logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Univ%20Abulyatama%20logo.jpg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Universitas%20Syiah%20Kuala%20(USK)%20Logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/Universitas%20Teuku%20Umar%20(UTU)%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/WCS%20logo.png" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/PF%20muda%20logo.jpeg" alt="">
+                  </li>
+                  <li class="partner-marquee-item">
+                    <img src="Mitra/bisa%20logo.jpeg" alt="">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer" id="kontak" aria-labelledby="contact-title" tabindex="-1">
+      <div class="footer-main-area">
+        <div class="container footer-container">
+          
+          <!-- Kolom Kiri: HUBUNGI KAMI -->
+          <div class="footer-col-left">
+            <h2 class="footer-col-title" id="contact-title">HUBUNGI KAMI</h2>
+            
+            <div class="footer-contact-info">
+              <p class="footer-info-item">
+                Jl. Tgk. Adee II No 8, Ulee Kareng,<br>Banda Aceh, Aceh, Indonesia 23117
+              </p>
+              <p class="footer-info-item">
+                <a href="https://wa.me/628979276758" target="_blank" rel="noopener noreferrer">WhatsApp +62 897-9276-758</a>
+              </p>
+              <p class="footer-info-item">
+                <a href="mailto:akademi@naturalaceh.org">Email akademi@naturalaceh.org</a>
+              </p>
+            </div>
+
+            <!-- Ikon Media Sosial Horizontal (Putih polos tanpa kotak/lingkaran) -->
+            <div class="footer-social-row" aria-label="Media Sosial dan Kontak Resmi">
+              <a class="footer-social-icon" href="https://wa.me/628979276758" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Natural Akademi">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12.031 2C6.511 2 2.016 6.496 2.016 12.016c0 1.954.56 3.86 1.625 5.517L2 22.031l4.633-1.602a9.99 9.99 0 0 0 5.398 1.579c5.52 0 10.016-4.496 10.016-10.016 0-5.52-4.496-9.992-10.016-9.992zm5.727 14.156c-.242.68-1.22 1.305-1.695 1.383-.446.078-1.016.14-3.14-.742-2.313-.961-3.797-3.32-3.914-3.477-.117-.156-.938-1.25-.938-2.383 0-1.133.586-1.688.805-1.922.21-.234.468-.297.625-.297.156 0 .312 0 .445.008.149.008.352-.055.555.43.211.5.719 1.758.781 1.883.063.125.102.273.016.438-.078.164-.117.273-.234.414-.117.14-.242.32-.344.43-.117.117-.242.242-.102.476.14.242.625 1.031 1.344 1.672.922.82 1.703 1.078 1.945 1.195.242.117.383.102.523-.062.14-.164.602-.703.766-.945.164-.242.328-.203.547-.117.219.078 1.39.656 1.633.781.242.117.406.18.468.281.063.102.063.586-.18 1.266z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="https://www.instagram.com/naturalaceh/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Natural Aceh">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="https://naturalaceh.org/" target="_blank" rel="noopener noreferrer" aria-label="Website Resmi Natural Aceh">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                </svg>
+              </a>
+              <a class="footer-social-icon" href="mailto:akademi@naturalaceh.org" aria-label="Email Natural Akademi">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: TAUTAN CEPAT (Rata Kanan) -->
+          <div class="footer-col-right">
+            <h2 class="footer-col-title">TAUTAN CEPAT</h2>
+            <nav class="footer-quick-links" aria-label="Tautan Cepat">
+              <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="visi-misi.html">Visi dan Misi</a></li>
+                <li><a href="index.html#program">Program</a></li>
+                <li><a href="kurikulum-inkubasi-umkm.html">Kurikulum</a></li>
+                <li><a href="#mitra">Mitra</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Bar Copyright Paling Bawah -->
+      <div class="footer-bottom-bar">
+        <div class="container">
+          <p class="footer-copyright-text">&copy; COPYRIGHT <span data-current-year>2026</span> - NATURAL AKADEMI / NATURAL ACEH - ALL RIGHTS RESERVED.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
