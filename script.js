@@ -619,7 +619,7 @@
   const toggleBtn = document.getElementById("lang-toggle");
   if (!toggleBtn) return;
 
-  const badgeText = toggleBtn.querySelector(".lang-badge-text");
+  const langCodeEl = toggleBtn.querySelector(".lang-code-text, .lang-badge-text");
   const badgeCircle = toggleBtn.querySelector(".lang-badge-circle");
   let origDocTitle = document.title;
 
@@ -693,7 +693,7 @@
     // Update toggle button UI
     toggleBtn.setAttribute("aria-pressed", String(isEn));
     toggleBtn.classList.toggle("is-en", isEn);
-    if (badgeText) badgeText.textContent = isEn ? "EN" : "ID";
+    if (langCodeEl) langCodeEl.textContent = isEn ? "EN" : "ID";
     if (badgeCircle) badgeCircle.setAttribute("fill", isEn ? "#0D7A3E" : "#1B498B");
     
     const label = isEn
